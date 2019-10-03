@@ -10,8 +10,6 @@ function clickCelda(numero) {
             alert("Movimiento invalido")
         }
     }
-
-
 }
 function jugarTurno(numero) {
     $("#" + numero).text(turno);
